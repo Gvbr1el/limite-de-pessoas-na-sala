@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limte da sala</title>
+</head>
+<body>
+    <script>
+        function sala(){
+            var numParticipantes = prompt("Quantas pessoas tem nessa sala?");
+            numParticipantes = parseFloat(numParticipantes);
+
+            if (numParticipantes > 30){
+                alert("O limite de participantes já foi atingido!");
+            }
+            else{
+                alert("O limite de participantes ainda não foi atingido!");
+            }
+        }
+
+        sala();
+    </script>
+</body>
+</html>
